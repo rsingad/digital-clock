@@ -11,18 +11,6 @@
     <div class="container" style="position: absolute;top: 0%;left: 40%;">
             <span id="tiktik" class="fs-1" ></span>
     </div>
-    <script>
-        const body = document.querySelector("body");
-        const tiktik = document.querySelector("#tiktik");
-        tiktik.style.color = "aqua";
-        // tiktik.style.backgroundColor = "";
-        body.style.cssText =`background-color: #000;color: #fff;`;
-        // body.style.backgroundColor ="black"
-        
-        setInterval(()=>{
-            const date= new Date();
-            tiktik.innerHTML=date.toLocaleTimeString();
-        },1000)
-    </script>
+    <script src="custom.js"></script>
 </body>
 </html>
